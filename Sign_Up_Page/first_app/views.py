@@ -26,7 +26,7 @@ def register(request):
 
     if request.method == 'POST':
 
-        
+
         user_form = UserForm(data=request.POST)
         profile_form = UserProfileInfoForm(data=request.POST)
 
